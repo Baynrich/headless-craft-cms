@@ -1,0 +1,20 @@
+{
+  "name": "frotned",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_EXTRA_CA_CERTS=\"\/Users\/bendiksolevag\/.config\/valet\/CA\/LaravelValetCASelfSigned.pem\" next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7"
+  }
+}
